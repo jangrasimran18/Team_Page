@@ -1,0 +1,203 @@
+body{
+   background-color: #61677A;
+}
+.header{
+   /* background-image: url(iStock-1093522584-e1662682245726-aspect-ratio-950-550.webp); Replace with your header background image URL */
+   background-size: cover;
+   background-position: center;
+   color: #fff;
+   padding: 100px 0;
+   text-align: center;
+   background-color: #CAEDFF;
+   
+}
+.bodyer{
+   background-color: #D8B4F8;
+   text-shadow: #c2cffc;
+   color: #FFC7EA;
+   font-size: larger;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  
+
+}
+.row{
+    display: flex;
+    flex-direction: column ;
+    gap: 30;
+    justify-content: centre;
+    align-items: center;
+}
+.column{
+    width: 14%;
+    height: 100px;
+    background-color: ;
+    border: 1px solid black;
+    margin: 10px auto;
+    font-size: 30px;
+    border-color: grey;
+}
+@media (max-width: 768px) {
+    .column {
+      width: 50%;
+    }
+ }
+
+ /* MEET OUR MENTOR */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ *{
+    padding: 0;
+    margin: 0;
+ }
+.container{
+    margin: 20px 40px;
+    color: white;
+
+}
+
+.heading{
+    font-size: 60px;
+    
+}
+.heading span{
+    font-style: italic;
+    font-size:30px;
+
+}
+ .profiles{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+ 
+ }
+ .profile {
+    flex-basis: 100px;
+ }
+ .profile-img{
+    height: 0.5%;
+    width: 10px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 100ms;
+    gap: 30%;
+
+ }
+ .user-name{
+    margin-top: 30px;
+    font-size: 35px;
+ }
+ .profile h5{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+ }
+ .profile h3{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+ }
+
+
+/* ADVISOR */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   *{
+      padding: 0;
+      margin: 0;}
+
+.grid {
+   display: grid;
+   width: 114em;
+   grid-gap: 6rem;
+   grid-template-columns: repeat(auto-fit,minmax(30rem,1fr)) ;
+   align-items: start;
+   background-color: #FFC7EA;}
+   
+.h1{
+   color: #fff;
+   background-color: #FFC7EA;
+}
+.grid-item{
+   background-color: #fff;
+   border-radius: 0.4rem;
+   overflow: hidden;
+   box-shadow: 0 3rem 6rem rgba(0 ,0,0,0.1);
+   cursor: pointer;
+   transition: 0.2s;
+
+
+}
+.grid-item:hover{
+   transform: translate(-0.5%);
+   box-shadow: 0 4rem 8rem  rgba(0 ,0,0,0.5);
+ }           
+
+ .card-img{
+      display: block;
+      width: 100%;
+      height: 50rem;
+      object-fit: cover;
+
+ }
+      
+.card-content{
+   padding: 3rem;
+
+}
+
+.card-header{
+   font-size: 3rem;
+   font-weight: 500;
+   color: #0d0d0d;
+   margin-bottom: 1.5rem;
+
+}
+.card-text{
+   display: block;
+   width: 100%;
+   padding: 1.5rem;
+   font-size: 2rem;
+   text-align: centre;
+   color: grey;
+   background-color: #CAEDFF;
+   border: none;
+   border-radius: 0.4rem;
+   transition: 0.2s;
+   cursor: pointer;
+   letter-spacing: 0.1rem;
+
+}
+.card-btn{
+   background-color: #FFC7EA;
+   border: #D8B4F8;
+   color: grey;
+   
+}
+.card-btn span{
+   margin-left: 3rem;
+   transition: 0.2s;
+  
+
+}
+.card-btn:hover,
+.card-btn:active{
+   background-color: #c2cffc;
+
+}
+.card-btn:hover span,
+.card-btn:active span{
+   margin-left: 0.5rem;
+}
+
+.thanku{
+   background-color: #CAEDFF;
+   color: #fff;
+   
+   text-align: center;
+   
+}
